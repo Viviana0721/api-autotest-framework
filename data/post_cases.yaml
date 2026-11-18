@@ -1,0 +1,8 @@
+# 数据驱动：新增一条查询场景只加一行，不改代码
+- name: 查询存在的资源
+  post_id: 1
+  expect_status: 200
+  expect_id: 1
+- name: 查询不存在的资源
+  post_id: 99999
+  expect_status: 404

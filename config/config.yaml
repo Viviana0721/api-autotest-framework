@@ -1,0 +1,11 @@
+# 被测服务配置：环境隔离，切换环境只改这里
+env: test
+
+base_url:
+  test: https://jsonplaceholder.typicode.com
+
+timeout: 10
+
+headers:
+  Content-Type: application/json
+  Accept: application/json
