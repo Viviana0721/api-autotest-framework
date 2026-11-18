@@ -1,5 +1,7 @@
 # 接口自动化测试框架
 
+[![API Test](https://github.com/Viviana0721/api-autotest-framework/actions/workflows/api-test.yml/badge.svg)](https://github.com/Viviana0721/api-autotest-framework/actions/workflows/api-test.yml)
+
 基于 **Python + Requests + pytest + YAML 数据驱动** 的接口自动化框架，用于演示分层设计、登录态管理与持续集成。
 
 ## 目录结构
